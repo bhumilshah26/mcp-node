@@ -1,0 +1,23 @@
+{
+  "name": "mcp-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "npx @modelcontextprotocol/inspector node server.js",
+    "server": "node server.js",
+    "client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.0",
+    "fs-extra": "^11.3.4",
+    "openai": "^6.33.0",
+    "zod": "^4.3.6"
+  },
+  "type": "module"
+}

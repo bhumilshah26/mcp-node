@@ -1,0 +1,7 @@
+.git
+.env
+
+package-lock.json
+
+node_modules/
+workspace/
