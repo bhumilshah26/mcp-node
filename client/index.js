@@ -13,7 +13,7 @@ const openai = new OpenAI({ apiKey });
 
 const transport = new StdioClientTransport({
     command: "node",
-    args: ["./server.js"]
+    args: ["./server/index.js"]
 });
 
 const client = new Client(

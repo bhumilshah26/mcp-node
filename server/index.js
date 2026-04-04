@@ -18,7 +18,6 @@ function logToTerminal(message) {
     console.error(`[${new Date().toISOString()}] ${message}`);
 }
 
-
 // Tool 1: list files
 server.registerTool("list_files", {
         title: "List",

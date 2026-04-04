@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "inspect": "npx @modelcontextprotocol/inspector node server.js",
-    "server": "node server.js",
-    "client": "node client.js",
+    "inspect": "npx @modelcontextprotocol/inspector node server/index.js",
+    "server": "node server/index.js",
+    "client": "node client/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -21,6 +21,7 @@ npm install
 ```
 
 ## Steps to run the project (You must have a folder named 'workspace')
+### Note: Can directly start to run the project atfer cloning using `npm install && npm run inspect` commands !!!
 
 1) Create a `.env` file in the project root:
 
@@ -30,22 +31,29 @@ OPENAI_API_KEY=your_openai_api_key_here
 2) Create a folder named 'workspace':
 
 ```bash
+cd server
 mkdir workspace
 ```
 
-3) Start the MCP server directly:
+3) Install dependencies: 
+
+```bash
+npm install
+```
+
+4) Start the MCP server directly:
 
 ```bash
 npm run server
 ```
 
-4) Start the client (change the content in messages array to get varied outputs):
+5) Start the client (change the content in messages array to get varied outputs):
 
 ```bash
 npm run client
 ```
 
-## To inspect the MCP Server with a inspection-based UI
+## To run the MCP Server with a inspection-based UI
 1) Launch the MCP Inspector:
 
 ```bash
