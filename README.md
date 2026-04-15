@@ -2,7 +2,7 @@
 
 ## What this project does
 
-This project demonstrates an MCP server built using `@modelcontextprotocol/sdk` and `StreamableHTTPClientTransport`, along with `OpenAI` integration on the client side to showcase how AI tools can access file system operations.
+This project demonstrates an MCP server built using `@modelcontextprotocol/sdk` and `StreamableHTTPTransport`, along with `OpenAI` integration on the client side to showcase how AI tools can access file system operations.
 
 
 The server works inside the local `workspace/` folder and exposes these tools:
