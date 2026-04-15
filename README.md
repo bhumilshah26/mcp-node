@@ -2,7 +2,7 @@
 
 ## What this project does
 
-This project demonstrates an MCP server built using `@modelcontextprotocol/sdk` and `stdio`, along with `OpenAI` integration on the client side to showcase how AI tools can access file system operations.
+This project demonstrates an MCP server built using `@modelcontextprotocol/sdk` and `StreamableHTTPClientTransport`, along with `OpenAI` integration on the client side to showcase how AI tools can access file system operations.
 
 
 The server works inside the local `workspace/` folder and exposes these tools:
@@ -54,12 +54,17 @@ npm run client
 ```
 
 ## To run the MCP Server with a inspection-based UI
-1) Launch the MCP Inspector:
+1) Launch the server:
+```bash
+npm run server
+```
+
+2) Launch the MCP Inspector:
 
 ```bash
 npm run inspect
 ```
 
-2) Click on the connect button to connect to the MCP Server (Check the session token and config details):
+3) Click on the connect button to connect to the MCP Server (Check the session token and config details):
 
-3) List all the tools and choose whichever tool you wish to call on the McpServer
+4) List all the tools and choose whichever tool you wish to call on the McpServer
